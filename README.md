@@ -41,8 +41,6 @@ Libraries and APIs
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
 - [TypeScript Official Documentation](https://www.typescriptlang.org/docs/)
 - [Node.js Official Documentation](https://www.nodejs.tech/ro/docs)
 - [Axios Documentation](https://github.com/axios/axios )

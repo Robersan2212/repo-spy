@@ -6,7 +6,7 @@ I developed a command-line tool called "Repo-Spy" using TypeScript to deepen my 
 
 My purpose in creating this software was to enhance my skills in writing clean, maintainable TypeScript code that handles real-world asynchronous operations using async/await. Additionally, I aimed to practice designing modular applications with a clear separation of concerns, improving both code organization and testability. This project also helped me gain practical experience working with external APIs and processing JSON data efficiently, which are critical skills for modern software development.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=PzyyrKeow84)
 
 # Development Environment
 

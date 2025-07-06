@@ -26,6 +26,7 @@ Development Tools
 
     ESLint: A static code analysis tool (linter) used to enforce code quality and a consistent style across the project.
 
+   
 Programming Language
 
     TypeScript: A statically typed superset of JavaScript, chosen to write the application's source code to ensure type safety and improve maintainability.

@@ -27,7 +27,7 @@ git clone <repository-url>
 cd repo-spy
 ```
 
-2. Install dependencies:
+2. Install dependencie:
 ```bash
 npm install
 ```

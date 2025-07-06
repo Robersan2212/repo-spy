@@ -14,34 +14,32 @@ Development Tools
 
 .Visual Studio Code (VS Code): The integrated development environment (IDE) used for writing and debugging the application's code.
 
-. Node.js: The runtime environment that allows the application to be executed from the command line.
+      . Node.js: The runtime environment that allows the application to be executed from the command line.
 
-. npm (Node Package Manager): The package manager used to install and manage all project dependencies.
+      . npm (Node Package Manager): The package manager used to install and manage all project dependencies.
 
-. TypeScript Compiler (tsc): The official tool for compiling TypeScript code into executable JavaScript.
+      . TypeScript Compiler (tsc): The official tool for compiling TypeScript code into executable JavaScript.
 
-. ts-node: A development utility used to run TypeScript files directly, which speeds up the testing and development cycle.
+      . ts-node: A development utility used to run TypeScript files directly, which speeds up the testing and development cycle.
 
-. est: A testing framework used to write and run unit tests, ensuring that individual components of the software function correctly.
+      . est: A testing framework used to write and run unit tests, ensuring that individual components of the software function correctly.
 
-. ESLint: A static code analysis tool (linter) used to enforce code quality and a consistent style across the project.
+      . ESLint: A static code analysis tool (linter) used to enforce code quality and a consistent style across the project.
 
    
 Programming Language
 
-. TypeScript: A statically typed superset of JavaScript, chosen to write the application's source code to ensure type safety and improve maintainability.
+      . TypeScript: A statically typed superset of JavaScript, chosen to write the application's source code to ensure type safety and improve maintainability.
 
 Libraries and APIs
 
-.Axios: A promise-based HTTP client library used to make asynchronous requests to the GitHub REST API.
+      . Axios: A promise-based HTTP client library used to make asynchronous requests to the GitHub REST API.
 
-.  Commander.js: A library for building command-line interfaces, used to parse arguments and options provided by the user.
+      . Commander.js: A library for building command-line interfaces, used to parse arguments and options provided by the user.
 
-.  Chalk: A terminal string styling library used to add color and formatting to the output, making it more readable and visually appealin
+      . Chalk: A terminal string styling library used to add color and formatting to the output, making it more readable and visually appealin
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
 
 - [Typescript Official Documentation](//www.typescriptlang.org/docs/ )
 - [Node.js Official Documentation](https://www.nodejs.tech/ro/docs)
@@ -54,8 +52,6 @@ Libraries and APIs
   
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
 
 - Add program indicators for for API calls
 - Create a configuration file for default settings.

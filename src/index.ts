@@ -83,31 +83,17 @@ async function main(): Promise<void> {
     .description('Fetch GitHub repository statistics from the command line')
     .version('1.0.0')
     .option('-t, --token <token>', 'GitHub personal access token')
-    .argument('[repository]', 'Repository in format owner/repo or separate owner and repo arguments')
-    .argument('[owner]', 'Repository owner (if not provided in first argument)')
-    .argument('[repo]', 'Repository name (if not provided in first argument)')
-    .action(async (repository: string, owner: string, repo: string, options: { token?: string }) => {
-      let targetOwner: string;
-      let targetRepo: string;
-
+    .argument('<repository>', 'Repository in format owner/repo')
+    .action(async (repository: string, options: { token?: string }) => {
       // Parse repository input
-      if (repository && !owner && !repo) {
-        // Format: repo-spy owner/repo
-        const parsed = RepoSpyApp.parseRepositoryInput(repository);
-        if (!parsed) {
-          CLIView.displayError('Invalid repository format. Use: owner/repo or provide owner and repo separately.');
-          process.exit(1);
-        }
-        targetOwner = parsed.owner;
-        targetRepo = parsed.repo;
-      } else if (owner && repo) {
-        // Format: repo-spy owner repo
-        targetOwner = owner;
-        targetRepo = repo;
-      } else {
-        CLIView.displayHelp();
+      const parsed = RepoSpyApp.parseRepositoryInput(repository);
+      if (!parsed) {
+        CLIView.displayError('Invalid repository format. Use: owner/repo (e.g., facebook/react)');
         process.exit(1);
       }
+
+      const targetOwner = parsed.owner;
+      const targetRepo = parsed.repo;
 
       // Get token from options or environment
       const token = options.token || process.env.GITHUB_TOKEN;
